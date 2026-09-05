@@ -50,7 +50,7 @@
         this.minutos = minutos;
         this.segundos = segundos;
         if(!ehValida())
-            horas = minutos = segundos = 0;
+            this.horas = this.minutos = this.segundos = 0;
     }
 
     /**
